@@ -1,0 +1,15 @@
+{
+  "name": "bandejao-puc-rio",
+  "version": "1.0.0",
+  "description": "Bandejão Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6"
+  }
+}
