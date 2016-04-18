@@ -13,3 +13,18 @@
 p.flow-text {
     margin-bottom:15px !important;
 }
+
+/* Top Image */
+#top-image {
+    background-color: #25B7D3;
+    margin-bottom: 0px;
+}
+
+.mainColor {
+    background-color: #25B7D3;
+}
+
+/* Footer */
+#my-footer {
+    background-color: #25B7D3;
+}
