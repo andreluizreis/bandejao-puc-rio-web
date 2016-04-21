@@ -15,8 +15,8 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
-app.get('/band', function(request, response){
-  response.render('pages/band');
+app.get('/horarios', function(request, response){
+  response.render('pages/schedules');
 });
 
 app.get('/cool', function(request, response){

@@ -28,3 +28,7 @@ p.flow-text {
 #my-footer {
     background-color: #25B7D3;
 }
+
+footer a:hover {
+text-decoration:underline !important;
+}
