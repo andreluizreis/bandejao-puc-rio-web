@@ -19,8 +19,8 @@ app.get('/horarios', function(request, response){
   response.render('pages/schedules');
 });
 
-app.get('/cool', function(request, response){
-  response.send(cool());
+app.get('/precos', function(request, response){
+  response.render('pages/prices');
 });
 
 app.listen(app.get('port'), function() {
