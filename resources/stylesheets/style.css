@@ -23,6 +23,11 @@ p.flow-text {
 .mainColor {
     background-color: #25B7D3;
 }
+/* Content */
+
+#main-content {
+    min-height: 20.5em;
+}
 
 /* Footer */
 #my-footer {
