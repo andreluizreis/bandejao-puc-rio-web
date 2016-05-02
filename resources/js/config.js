@@ -9,5 +9,5 @@ $('.datepicker').pickadate({
     clear: 'Limpar',
     close: 'Fechar',
     format: 'dddd, dd mmmm, yyyy',
-    formatSubmit: 'yyyy/mm/dd',    
+    formatSubmit: 'yyyy/mm/dd'    
   });
