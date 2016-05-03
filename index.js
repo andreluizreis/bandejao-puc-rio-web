@@ -1,5 +1,8 @@
-var express = require('express');
-var app = express();
+/** ************************
+ *        Index.js
+ ***************************/
+const express = require('express');
+const app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -10,24 +13,22 @@ app.use(express.static(__dirname + '/resources'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.get('/', function(request, response) {
+app.get('/', function callBack(request, response) {
   response.render('pages/index');
 });
 
-app.get('/horarios', function(request, response){
+app.get('/horarios', function (request, response) {
   response.render('pages/schedules');
 });
 
-app.get('/precos', function(request, response){
+app.get('/precos', function (request, response) {
   response.render('pages/prices');
 });
 
-app.get('/config', function(request, response){
+app.get('/config', function (request, response) {
   response.render('pages/config');
 });
 
-app.listen(app.get('port'), function() {
+app.listen(app.get('port'), function () {
   console.log('Node app is running on port', app.get('port'));
 });
-
-
